@@ -1,7 +1,7 @@
-# Katalon Studio Samples: Jira UI Tests
+# Katalon Studio Samples: Tips and Tricks
 Katalon Studio is a free and easy-to-use automated functional and regression testing platform. It provides users the ability to implement full automated testing solutions for their application projects with minimal engineering and programming skill requirements.
 ______
-The **jira-ui-tests** perform UI functional automation test on Jira Web Application using Katalon Studio. The examples in this project range from common to advanced test cases.
+The **tips-and-tricks** project contains some tips and tricks when using Katalon Studio to support users handling some specfic cases.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine.
 ### Prerequisites

@@ -14,7 +14,6 @@ WebUI.click(findTestObject('Test Objects/Pages/Login Page/elContinue'))
 
 WebUI.verifyElementPresent(findTestObject('Test Objects/Pages/Login Page/elEmail'), 0)
 
-
 // Get the TestObject
 TestObject to = findTestObject('Test Objects/Pages/Login Page/elEmail')
 

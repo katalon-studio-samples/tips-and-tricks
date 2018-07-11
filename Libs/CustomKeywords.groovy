@@ -33,3 +33,11 @@ def static "com.jira.components.JSelect.selectByText"(
         	el
          , 	optionText)
 }
+
+def static "com.jira.utils.CustomGlobalVariable.addGlobalVariable"(
+    	String name	
+     , 	Object value	) {
+    (new com.jira.utils.CustomGlobalVariable()).addGlobalVariable(
+        	name
+         , 	value)
+}

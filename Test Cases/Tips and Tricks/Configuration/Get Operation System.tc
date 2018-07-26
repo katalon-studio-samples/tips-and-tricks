@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Get Operation System </name>
+   <name>Get Operation System</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e64abc7f-85fd-4f4e-98e0-31e95f1fac7f</testCaseGuid>

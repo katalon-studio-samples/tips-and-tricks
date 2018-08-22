@@ -24,10 +24,27 @@ At the end of this README, you will find additional ways to execute automation t
 ## Test Cases
 ### Tips and Tricks
 - Configuration
+     - Get browser type and version
+     - Get Operation System
+     - Start IE with pre-configued options
+     - Get screen resolution
+     - Start Firefox at default homepage
+     - Start Chrome maximized and hide info bars
 - Execution
+     - Custom Remote Execution
+     - Force stop execution a test case
 - Cookies
+     - Set cookies for browsers
 - UI Tests
+     - Locators
+          - Create test object at runtime
+          - Change locator type of a test object at runtime
+          - Update locator value of a test object at runtime
 - Mobile Tests
+     - iOS
+          - Swipe action on iOS device using guestures
+- Test Data
+     - Write data into Excel file at runtime during test execution
 
 ## See Also
 Update configurations for integration: [Jira](https://docs.katalon.com/x/7oEw), [Katalon Analytics](https://docs.katalon.com/x/KRhO)

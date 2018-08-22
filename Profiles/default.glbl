@@ -34,4 +34,9 @@
       <initValue>'Ticket created at 1528442112968'</initValue>
       <name>ticket_sample</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'profile1'</initValue>
+      <name>customExecutionName</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

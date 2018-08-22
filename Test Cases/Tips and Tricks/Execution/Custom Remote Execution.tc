@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>How to use </description>
+   <name>Custom Remote Execution</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73f10756-0e58-4dd8-8e78-10be315cc65b</testCaseGuid>
+   <variable>
+      <defaultValue>'profile1'</defaultValue>
+      <description></description>
+      <id>0dad6b74-0de3-4da7-b673-e248d8cf90c7</id>
+      <masked>false</masked>
+      <name>customName</name>
+   </variable>
+</TestCaseEntity>

@@ -29,9 +29,11 @@ class TestListener {
 	 */
 	@BeforeTestCase
 	def beforeTestcase(TestCaseContext testCaseContext) {
-		WebUI.openBrowser('');
-		WebUI.maximizeWindow();
-		WebUI.navigateToUrl(GlobalVariable.URL);
+		if (GlobalVariable.init_browser) {
+			WebUI.openBrowser('');
+			WebUI.maximizeWindow();
+			WebUI.navigateToUrl(GlobalVariable.URL);
+		}
 	}
 
 	/**
@@ -41,5 +43,6 @@ class TestListener {
 	@AfterTestCase
 	def afterTestcase(TestCaseContext testCaseContext) {
 		WebUI.closeBrowser();
+		
 	}
 }

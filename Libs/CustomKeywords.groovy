@@ -30,6 +30,14 @@ def static "com.common.utils.SetDesiredCapability.ie"(
         	desiredCapabilities)
 }
 
+def static "com.jqueryui.widgets.Datepicker.pickDate"(
+    	TestObject ob	
+     , 	String date	) {
+    (new com.jqueryui.widgets.Datepicker()).pickDate(
+        	ob
+         , 	date)
+}
+
 def static "com.jira.components.JSelect.selectByText"(
     	TestObject o	
      , 	String optionText	) {

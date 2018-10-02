@@ -48,11 +48,17 @@ public class GlobalVariable {
      */
     public static Object customExecutionName
      
+    /**
+     * <p></p>
+     */
+    public static Object init_browser
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['URL' : 'https://katalon.atlassian.net', 'password' : '8eml3nBz19rJ6kP8oCYK', 'encrypted_password' : '3q63o6Jj3SJkOvMHtql0qi2TenXgkra+', 'username' : 'demo@katalon.com', 'element_timeout' : 60, 'ticket_sample' : 'Ticket created at 1528442112968', 'customExecutionName' : 'profile1'])
+        allVariables.put('default', ['URL' : 'https://katalon.atlassian.net', 'password' : 'sPiHQ&YEa6ST`de+', 'encrypted_password' : 'KLAk0b2rAgvA1EV7zgpKiS/uV+5nc48Y', 'username' : 'demo@katalon.com', 'element_timeout' : 60, 'ticket_sample' : 'Ticket created at 1528442112968', 'customExecutionName' : 'profile1', 'init_browser' : true])
         allVariables.put('dev profile', allVariables['default'] + ['username' : 'bella'])
+        allVariables.put('jqueryui', allVariables['default'] + ['init_browser' : false])
         allVariables.put('qa profile', allVariables['default'] + ['username' : 'tom'])
         
         String profileName = RunConfiguration.getExecutionProfile()
@@ -65,6 +71,7 @@ public class GlobalVariable {
         element_timeout = selectedVariables['element_timeout']
         ticket_sample = selectedVariables['ticket_sample']
         customExecutionName = selectedVariables['customExecutionName']
+        init_browser = selectedVariables['init_browser']
         
     }
 }

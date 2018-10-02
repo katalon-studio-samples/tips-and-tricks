@@ -40,6 +40,9 @@ At the end of this README, you will find additional ways to execute automation t
           - Create test object at runtime
           - Change locator type of a test object at runtime
           - Update locator value of a test object at runtime
+     - Datepicker
+          - Custom keyword handling jqueryui datepicker at http://jqueryui.com/datepicker/
+          - Note: remember to select profile jqueryui before running the test case
 - Mobile Tests
      - iOS
           - Swipe action on iOS device using guestures

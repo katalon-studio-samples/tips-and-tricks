@@ -15,10 +15,12 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://jqueryui.com/datepicker/')
+WebUI.navigateToUrl('http://jqueryui.com/selectmenu/')
 
-CustomKeywords.'com.jqueryui.widgets.Datepicker.pickDate'(findTestObject('jqueryui/widgets/datepicker/textbox'), '09/18/2019')
+CustomKeywords.'com.jqueryui.widgets.Selectmenu.selectItem'('Select a speed', 'Slow')
 
-println WebUI.getAttribute(findTestObject('jqueryui/widgets/datepicker/textbox'), "value")
+WebUI.verifyElementText(findTestObject('Object Repository/jqueryui/widgets/selectmenu/input', [('label') : 'Select a speed']), 'Slow')
 
-WebUI.verifyElementAttributeValue(findTestObject('jqueryui/widgets/datepicker/textbox'), "value", '09/18/2019', 0)
+CustomKeywords.'com.jqueryui.widgets.Selectmenu.selectItem'('Select a file', 'Some unknown file')
+
+WebUI.verifyElementText(findTestObject('Object Repository/jqueryui/widgets/selectmenu/input', [('label') : 'Select a file']), 'Some unknown file')

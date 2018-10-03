@@ -69,3 +69,11 @@ def static "com.jira.utils.CustomGlobalVariable.addGlobalVariable"(
         	name
          , 	value)
 }
+
+def static "com.jqueryui.widgets.Selectmenu.selectItem"(
+    	String label	
+     , 	String item	) {
+    (new com.jqueryui.widgets.Selectmenu()).selectItem(
+        	label
+         , 	item)
+}

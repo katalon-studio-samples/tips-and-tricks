@@ -43,6 +43,9 @@ At the end of this README, you will find additional ways to execute automation t
      - Datepicker
           - Custom keyword handling jqueryui datepicker at http://jqueryui.com/datepicker/
           - Note: remember to select profile **jqueryui** before running the test case
+     - Selectmenu
+          - Custom keyword handling jqueryui selectmenu at http://jqueryui.com/selectmenu/
+          - Note: remember to select profile **jqueryui** before running the test case
 - Mobile Tests
      - iOS
           - Swipe action on iOS device using guestures

@@ -13,14 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.waitForElementVisible(findTestObject('Test Objects/Pages/Login Page/elHeader'), 60)
 
-WebUI.navigateToUrl('http://jqueryui.com/datepicker/')
+WebUI.verifyTextPresent('Log in to your account', false)
 
-CustomKeywords.'com.jqueryui.widgets.Datepicker.pickDate'(findTestObject('jqueryui/widgets/datepicker/textbox'), '09/18/2019')
+WebUI.setText(findTestObject('Test Objects/Pages/Login Page/elUsername'), 'demo@katalon.com')
 
-println WebUI.getAttribute(findTestObject('jqueryui/widgets/datepicker/textbox'), "value")
-
-WebUI.verifyElementAttributeValue(findTestObject('jqueryui/widgets/datepicker/textbox'), "value", '09/18/2019', 0)
-
-findTestObject('Object Repository/jqueryui/widgets/selectmenu/iframe')
+if (WebUI.verifyElementClickable(findTestObject('Test Objects/Pages/Login Page/elContinue - Wrong'), FailureHandling.OPTIONAL)) {
+	WebUI.click(findTestObject('Test Objects/Pages/Login Page/elContinue - Wrong'))
+} else {
+    WebUI.click(findTestObject('Test Objects/Pages/Login Page/elContinue'))
+}

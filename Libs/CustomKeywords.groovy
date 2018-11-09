@@ -11,6 +11,10 @@ import java.lang.String
 
 import org.openqa.selenium.WebElement
 
+import java.util.Map
+
+import groovy.json.JsonSlurper
+
 
 def static "com.common.utils.SetDesiredCapability.chrome"(
     	List desiredCapabilities	) {
@@ -68,6 +72,18 @@ def static "com.jira.utils.CustomGlobalVariable.addGlobalVariable"(
     (new com.jira.utils.CustomGlobalVariable()).addGlobalVariable(
         	name
          , 	value)
+}
+
+def static "com.common.types.ParamTypes.map_variables"(
+    	java.util.Map<String, String> my_map	) {
+    (new com.common.types.ParamTypes()).map_variables(
+        	my_map)
+}
+
+def static "com.common.types.ParamTypes.json_variable"(
+    	JsonSlurper json	) {
+    (new com.common.types.ParamTypes()).json_variable(
+        	json)
 }
 
 def static "com.jqueryui.widgets.Selectmenu.selectItem"(

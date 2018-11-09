@@ -5,7 +5,7 @@
 	<classpathentry kind="src" output="bin/listener" path="Test Listeners"/>
 	<classpathentry kind="src" output="bin/lib" path="Libs"/>
 	<classpathentry kind="src" output="bin/groovy" path="Include/scripts/groovy"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core_1.0.0.201809140440.jar">
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core_1.0.0.201811060107.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core/"/>
 		</attributes>
@@ -35,16 +35,16 @@
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.oracle.jdbc.ojdbc7_12.1.0.2.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.postgresql.jdbc41_9.4.1208.jre7.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.osgi_3.11.3.v20170209-1843.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.constant_1.0.0.201809140440.jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.constant_1.0.0.201811060107.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.persistence.eclipselink_2.5.0.RC1.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.selenium-standalone_1.0.0.201809140440.jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.selenium-standalone_1.0.0.201811060107.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/atu.testrecorder.screen-recorder_2.1.0.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.google.guava_23.0.0.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.util_1.0.0.201809140440.jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.util_1.0.0.201811060107.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpclient_4.5.1.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpcore_4.4.4.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.httpcomponents.httpmime_4.5.1.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.lang3_3.1.0.v201403281430.jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.lang3_3.6.0.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.greenrobot.eventbus_3.1.1.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.assertj.core_3.10.0.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.junit_4.12.0.jar"/>
@@ -53,20 +53,20 @@
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.hamcrest.core_1.3.0.v201303031735.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.beanshell.bsh_2.0.0.0b4.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.ant.launcher_1.9.6.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.appium_1.0.0.201809140440.jar"/>
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.appium_1.0.0.201811060107.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webui_1.0.0.201809140440.jar">
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webui_1.0.0.201811060107.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.webui/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.mobile_1.0.0.201809140440.jar">
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.mobile_1.0.0.201811060107.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.mobile/"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/org.apache.commons.validator_1.5.0.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.cucumber_1.0.0.201809140440.jar">
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.cucumber_1.0.0.201811060107.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.cucumber/"/>
 		</attributes>
@@ -80,7 +80,7 @@
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.java_3.0.2.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.tag-expressions_1.1.1.jar"/>
 	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/io.cucumber.junit_3.0.2.jar"/>
-	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webservice_1.0.0.201809140440.jar">
+	<classpathentry kind="lib" path="/Applications/Katalon Studio.app/Contents/Eclipse/plugins/com.kms.katalon.core.webservice_1.0.0.201811060107.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="file:/Applications/Katalon%20Studio.app/Contents/Eclipse/configuration/resources/apidocs/com.kms.katalon.core.webservice/"/>
 		</attributes>

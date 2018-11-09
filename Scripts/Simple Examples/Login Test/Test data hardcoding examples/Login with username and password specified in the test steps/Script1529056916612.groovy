@@ -29,7 +29,7 @@ import internal.GlobalVariable as GlobalVariable
  * Then I am at the Dashboard page
  * 
  * username: demo@katalon.com
- * password: 8eml3nBz19rJ6kP8oCYK
+ * password: sPiHQ&YEa6ST`de+
  */
 WebUI.waitForElementVisible(findTestObject('Test Objects/Pages/Login Page/elHeader'), 60)
 

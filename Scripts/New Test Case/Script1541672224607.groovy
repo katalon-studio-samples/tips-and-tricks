@@ -12,15 +12,3 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://jqueryui.com/datepicker/')
-
-CustomKeywords.'com.jqueryui.widgets.Datepicker.pickDate'(findTestObject('jqueryui/widgets/datepicker/textbox'), '09/18/2019')
-
-println WebUI.getAttribute(findTestObject('jqueryui/widgets/datepicker/textbox'), "value")
-
-WebUI.verifyElementAttributeValue(findTestObject('jqueryui/widgets/datepicker/textbox'), "value", '09/18/2019', 0)
-
-findTestObject('Object Repository/jqueryui/widgets/selectmenu/iframe')

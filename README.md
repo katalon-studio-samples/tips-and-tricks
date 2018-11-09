@@ -1,5 +1,6 @@
 # Katalon Studio Samples: Tips and Tricks
 Katalon Studio is a free and easy-to-use automated functional and regression testing platform. It provides users the ability to implement full automated testing solutions for their application projects with minimal engineering and programming skill requirements.
+
 ______
 The **tips-and-tricks** project contains some tips and tricks when using Katalon Studio to support users handling some specfic cases.
 ## Getting Started
